@@ -1,0 +1,63 @@
+/* Font face declarations */
+@font-face {
+  font-family: "Basel Grotesk";
+  src: url("../assets/BaselGrotesk-Book.woff2") format("woff2"),
+    url("../assets/BaselGrotesk-Book.woff") format("woff"),
+    url("../assets/BaselGrotesk-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Basel Grotesk";
+  src: url("../assets/BaselGrotesk-Bold.woff2") format("woff2"),
+    url("../assets/BaselGrotesk-Bold.woff") format("woff"),
+    url("../assets/BaselGrotesk-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* SVG specific styles */
+.d {
+  font-size: 6px;
+  font-family: Helvetica-Light, Helvetica;
+}
+
+.e {
+  font-size: 9px;
+  font-family: Helvetica-Light, Helvetica;
+}
+
+.f {
+  font-size: 5px;
+  font-family: Helvetica-Light, Helvetica;
+}
+
+.g {
+  font-size: 7px;
+  font-family: Helvetica-Light, Helvetica;
+}
+
+.h {
+  font-family: "Basel Grotesk", sans-serif;
+  font-size: 11px;
+}
+
+.i {
+  font-family: Helvetica, Helvetica;
+  font-size: 11px;
+}
+
+.j {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 0.5px;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
